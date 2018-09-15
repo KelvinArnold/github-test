@@ -1,0 +1,14 @@
+// Elements Page
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+html {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: $black;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: ($base-font-size / 16px) * 1em;
+  line-height: $base-line-height / $base-font-size;
+  min-height: 100%;
+  -moz-osx-font-smoothing: grayscale;
+   -webkit-font-smoothing: antialiased;
+}

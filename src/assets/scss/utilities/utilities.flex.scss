@@ -1,0 +1,27 @@
+.s-flex {
+  &-row {
+    display: flex;
+    flex-direction: row;
+    margin: 0 -1em;
+  }
+  &-wrap {
+    flex-wrap: wrap;
+  }
+}
+.s-justify {
+  &-between {
+    justify-content: space-between;
+  }
+}
+.s {
+  &-col {
+    &-6 {
+      width: 50%;
+      padding: 0 1em;
+    }
+    &-12 {
+      width: 100%;
+      padding: 0 1em;
+    }
+  }
+}
